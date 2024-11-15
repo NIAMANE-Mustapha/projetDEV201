@@ -1,13 +1,13 @@
 import './App.css';
-import Multi from './Composants/Somme/Multi';
-import Somme from './Composants/Somme/Somme';
+import Count from './Composants/Somme/Count';
+
 
 
 function App() {
   return (
     <div className="App">
       
-      <Somme  />
+      <Count  />
     </div>
   );
 }

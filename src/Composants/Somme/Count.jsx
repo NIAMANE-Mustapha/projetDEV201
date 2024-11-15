@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 
 export default function Count() {
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(1);
     const handlePlus=()=>{
         setCount(count+1)
     }

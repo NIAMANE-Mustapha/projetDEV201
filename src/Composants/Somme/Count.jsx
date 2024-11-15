@@ -3,10 +3,10 @@ import React,{useState} from 'react'
 export default function Count() {
     const [count, setCount] = useState(1);
     const handlePlus=()=>{
-        setCount(count+1)
+        setCount(count+2)
     }
     const handleMinus=()=>{
-        setCount(count-1)
+        setCount(count-2)
     }
   return (
     <div>
